@@ -1,5 +1,5 @@
 'use client';
-import { RevealWrapper, RevealList } from 'next-reveal';
+import { RevealWrapper } from 'next-reveal';
 import { commonCourse } from '../components/database';
 import { specializedTrack } from '../components/database';
 

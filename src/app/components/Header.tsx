@@ -7,7 +7,7 @@ export default function Header() {
         {/* Logo */}
         <div>
             <Link href={"/"}>
-            <Image src="/fulllogo.png" alt="logo" height={130} width={130} />
+                <Image src="/fulllogo.png" alt="logo" height={130} width={130} />
             </Link>
         </div>
 

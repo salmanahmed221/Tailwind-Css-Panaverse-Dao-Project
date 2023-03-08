@@ -8,17 +8,9 @@ export default function Home() {
         <div className='py-9'>
             {/* First Part */}
             <div>
-                <RevealWrapper
-                    origin="top"
-                    delay={200}
-                    duration={1000}
-                    distance="500px"
-                    reset={true}
-                >
-                    <h1 className="text-center text-4xl font-bold mt-8">
-                        Certified Web 3.0 and Metaverse Developer
-                    </h1>
-                </RevealWrapper>
+                <h1 className="text-center md:text-4xl text-3xl font-bold mt-8">
+                    Certified Web 3.0 and Metaverse Developer
+                </h1>
 
                 <RevealWrapper
                     origin="top"
@@ -29,7 +21,7 @@ export default function Home() {
                 >
                     <div className="md:flex mt-8 w-full gap-3">
                         <div className="basis-[50%]">
-                            <p className="text-center md:text-xl text-sm md:px-11 pt-6">
+                            <p className="text-center md:text-xl text-sm md:px-11 pt-6 px-1">
                                 A One and Quarter Years Panaverse DAO Earn as you Learn Program
                                 Getting Ready for the Next Generation of the Internet
                                 Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
@@ -45,7 +37,7 @@ export default function Home() {
                                 </Link>
                             </p>
                         </div>
-                        <div className="basis-[50%] md:ml-[100px] mt-16 md:mt-0">
+                        <div className="basis-[50%] md:ml-[100px] mt-10 md:mt-0">
                             <Image
                                 src="/fulllogo.png"
                                 alt="logo"
@@ -60,17 +52,10 @@ export default function Home() {
 
             {/* Second Part */}
             <div>
-                <RevealWrapper
-                    origin="top"
-                    delay={200}
-                    duration={1000}
-                    distance="500px"
-                    reset={true}
-                >
-                    <h1 className="text-center text-4xl font-bold mt-8 md:mt-20 px-2">
-                        Version 6.0.0 - March 2023
-                    </h1>
-                </RevealWrapper>
+
+                <h1 className="text-center md:text-4xl text-3xl font-bold mt-16 md:mt-20">
+                    Version 6.0.0 - March 2023
+                </h1>
 
                 <RevealWrapper
                     origin="top"
@@ -79,19 +64,14 @@ export default function Home() {
                     distance="500px"
                     reset={true}
                 >
-                    <p className="text-center md:text-xl text-sm md:px-60 pt-6 px-14">
+                    <p className="text-center md:text-xl text-sm md:px-60 pt-6 px-1">
                         The internet is without a doubt the most important technological
                         development in human history. Web3, 3D Metaverse, AI, IoT, Cloud, and
                         Edge technologies expand the internet as we know it by introducing
                         novel features and advancements. Metaverse will make use of all
                         aspects of modern technology, including 3D, VR, AR, AI, blockchain,
                         cloud and edge computing, voice computing, ambient computing, and
-                        more. Citi is the latest Wall Street business to give a positive
-                        prognosis for Web 3.0 and the Metaverse, terms used to depict a future
-                        internet vision centered on decentralized technologies and virtual
-                        worlds. Citi stated in a March 2022 research paper that the metaverse
-                        economy might have a total addressable market of up to $13 trillion
-                        and five billion people by 2030.
+                        more.
                         <br />
                         <Link
                             href={
@@ -100,7 +80,7 @@ export default function Home() {
                             target="_blank"
                             title="click to visit"
                             className="text-gray-900 font-bold">
-                            https://icg.citi.com/icghome/what-we-think/citigps/insights/metaverse-and-money_20220330
+                            https://icg.citi.com/icghome/what-we-think/citigps/insights
                         </Link>
                     </p>
                 </RevealWrapper>
@@ -108,17 +88,10 @@ export default function Home() {
 
             {/* Third Part */}
             <div>
-                <RevealWrapper
-                    origin="top"
-                    delay={200}
-                    duration={1000}
-                    distance="500px"
-                    reset={true}
-                >
-                    <h1 className="text-center text-4xl font-bold mt-8 md:mt-20 px-2">
-                        The Program in a Nutshell: Earn While You Learn
-                    </h1>
-                </RevealWrapper>
+
+                <h1 className="text-center md:text-4xl text-2xl font-bold mt-16 md:mt-20 px-2">
+                    The Program in a Nutshell: Earn While You Learn
+                </h1>
 
                 <RevealWrapper
                     origin="top"
@@ -127,7 +100,7 @@ export default function Home() {
                     distance="500px"
                     reset={true}
                 >
-                    <p className="text-center md:text-xl text-sm md:px-60 pt-6 px-14">
+                    <p className="text-center md:text-xl text-sm md:px-60 pt-6 px-1">
                         In this brand-new type of curriculum, students will learn how to make
                         money and boost exports in the classroom and will begin doing so
                         within six months of the programs beginning. It resembles a cross
@@ -147,17 +120,10 @@ export default function Home() {
 
             {/* Fourth Part */}
             <div>
-                <RevealWrapper
-                    origin="top"
-                    delay={200}
-                    duration={1000}
-                    distance="500px"
-                    reset={true}
-                >
-                    <h1 className="text-center text-4xl font-bold mt-8 md:mt-20">
-                        Program of Studies
-                    </h1>
-                </RevealWrapper>
+
+                <h1 className="text-center md:text-4xl text-3xl font-bold mt-16 md:mt-20">
+                    Program of Studies
+                </h1>
 
 
                 <RevealWrapper
@@ -177,11 +143,7 @@ export default function Home() {
                                 development. It is going to be a fifteen-month-long hybrid program
                                 that includes both onsite and online classes and is divided into
                                 five quarters of 13 weeks each. The emphasis will be on hands-on
-                                learning by educating students to produce projects. To accommodate
-                                everyone, courses will be held primarily on weekends or after 6:00
-                                p.m. (Pakistan Time) on weekdays. It employs a hybrid teaching
-                                format, with core onsite classes complemented by online Zoom
-                                laboratories and recorded videos
+                                learning by educating students to produce projects.
 
                             </p>
                         </div>
@@ -191,7 +153,7 @@ export default function Home() {
                                 alt="logo"
                                 height={800}
                                 width={800}
-                                className="pt-14"
+                                className="pt-5"
                             />
                         </div>
                     </div>

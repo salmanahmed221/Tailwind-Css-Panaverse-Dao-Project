@@ -6,7 +6,9 @@ export default function Header() {
     return <div className="flex justify-around items-center shadow-xl sticky top-0 bg-gray-100 z-10">
         {/* Logo */}
         <div>
+            <Link href={"/"}>
             <Image src="/fulllogo.png" alt="logo" height={130} width={130} />
+            </Link>
         </div>
 
         {/* Links */}

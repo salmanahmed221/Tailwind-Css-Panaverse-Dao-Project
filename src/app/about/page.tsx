@@ -63,7 +63,7 @@ export default function About() {
                         <h1 className="text-center text-4xl font-bold mt-8">
                             Panaverse DAO
                         </h1>
-                        <p className="text-center md:text-xl text-sm md:px-11 pt-6 py-20">
+                        <p className="text-center md:text-xl text-sm md:px-11 pt-6">
                             Panaverse DAO is a community of Web 3 and Metaverse developers,
                             designers, trainers, startup founders and service providers.
                             Panaverse DAO is struggling to produce professional metaverse
@@ -74,7 +74,7 @@ export default function About() {
                     </div>
 
                     {/* Right Part */}
-                    <div className="basis-[50%] md:ml-[100px] md:mt-0">
+                    <div className="basis-[50%] md:ml-[100px] md:mt-0 mt-10">
                         <Image src="/fulllogo.png" alt="logo" width={400} height={230} />
                     </div>
                 </div>
@@ -82,6 +82,7 @@ export default function About() {
 
             {/* Section 3*/}
 
+            <h1 className="text-center text-4xl font-bold mt-16">Our Instructors</h1>
             <RevealWrapper
                 origin="top"
                 delay={200}
@@ -89,7 +90,6 @@ export default function About() {
                 distance="500px"
                 reset={true}
             >
-                <h1 className="text-center text-4xl font-bold mt-8">Our Instructors</h1>
                 <div className="text-center grid md:grid-cols-4 gap-8 px-8 py-6">
                     {data.map((elem) => (
                         <div key={elem.id} className="w-full">

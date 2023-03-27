@@ -10,7 +10,7 @@ export default function Syallbus() {
 
             <div>
                 <h1 className="text-center text-[34px] md:text-4xl font-bold mt-8">Course Syllabus</h1>
-                <p className="text-center md:text-xl text-sm md:px-24 pt-6">
+                <p className="text-justify md:text-xl text-sm md:px-24 pt-6">
                     The first three quarters are shared by all specialties and are
                     dedicated to studying Object-Oriented Programming and cutting-edge
                     Full-Stack Web 2.0 development. It is going to be a fifteen-month-long
@@ -54,7 +54,7 @@ export default function Syallbus() {
                 <h1 className="text-center text-[28px] md:text-4xl font-bold mt-16 md:mt-20">
                     <mark><b>Specialized Tracks</b></mark>
                 </h1>
-                <p className="text-center md:text-xl text-sm md:px-24 pt-6">
+                <p className="text-justify md:text-xl text-sm md:px-24 pt-6">
                     After completing the first two quarters the participants will select
                     one or more specializations consisting of two courses each:
                 </p>
@@ -65,7 +65,7 @@ export default function Syallbus() {
 
                 <div key={elem.id}>
                     <h1 className='text-center md:text-4xl md:font-bold mt-16 md:mt-20 text-xl font-extrabold'>{elem.Heading1}</h1>
-                    <p className='text-center md:text-xl text-sm md:px-24 pt-6'>
+                    <p className='text-justify md:text-xl text-sm md:px-24 pt-6'>
                         {elem.Text1}
                     </p>
                     <RevealWrapper

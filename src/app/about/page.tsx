@@ -33,7 +33,7 @@ export default function About() {
                         <h1 className="text-center text-4xl font-bold mt-8">
                             Dr. Arif Alvi
                         </h1>
-                        <p className="text-center md:text-xl text-sm md:px-11 pt-6 py-20">
+                        <p className="md:text-xl text-sm md:px-11 pt-6 py-20 text-justify">
                             Dr. Arif Alvi was sworn in as the 13th President of Islamic
                             Republic of Pakistan on 9th September 2018.
                             Dr. Arif Alvi was born in 1949 and completed his early education
@@ -63,7 +63,7 @@ export default function About() {
                         <h1 className="text-center text-4xl font-bold mt-8">
                             Panaverse DAO
                         </h1>
-                        <p className="text-center md:text-xl text-sm md:px-11 pt-6">
+                        <p className="text-justify md:text-xl text-sm md:px-11 pt-6">
                             Panaverse DAO is a community of Web 3 and Metaverse developers,
                             designers, trainers, startup founders and service providers.
                             Panaverse DAO is struggling to produce professional metaverse
@@ -101,7 +101,7 @@ export default function About() {
                                 className="flex rounded-full  mx-auto"
                             />
                             <h1 className="text-xl font-bold">{elem.Heading}</h1>
-                            <p className="">{elem.Text}</p>
+                            <p>{elem.Text}</p>
                         </div>
                     ))}
                 </div>
